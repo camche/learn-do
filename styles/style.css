@@ -1,0 +1,16 @@
+code {
+    font-family: monospace;
+    color: black;
+    background-color: grey;
+    padding: auto;
+    font-size: 100%;
+}
+h2 {
+    color: green;
+}
+textarea {
+    width: 500px;
+}
+article {
+    border: solid
+}
