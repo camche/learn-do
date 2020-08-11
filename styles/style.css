@@ -8,9 +8,16 @@ code {
 h2 {
     color: green;
 }
+h3 {
+    color: #8888ee;
+}
 textarea {
     width: 500px;
 }
 article {
-    border: solid
+    border: solid;
+    text-align: center;
+}
+#css-grid {
+    display: grid;
 }

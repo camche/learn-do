@@ -16,9 +16,28 @@
   </article>
   <!--Put new entries just below this one so I have the most current log entry at the top and the oldest at the bottom
   Remember format is Article> H2, P's, textarea or similar if needed, Example.
-  -->
+  Template:
+  <article>
+    <h2></h2>
+    <p></p>
+  </article>
+-->
+<article>
+  <h2>2020.08.10 - Turns out using &lt; and &gt; IS done by writing "& lt ;" without spaces.</h2>
+  
+  <h3>Section 1, follow up from last entry</h3>
+  <p>In order to write code without it rendering it turns out that using &lt;code&gt; is done by writing out  "& lt ;". You don't actually type out the "<'s" on either side.</p>
+  <p>This is fun news because it shows that my (v low level) sleuthing actually found the correct answer and maybe shouldn't be thought of as so lowly/hacky but maybe as "oh I found an solution, maybe later I'll find a better one, but this'll do for now."</p>
+  <p>Additionally, it turns out the "&lt;code&gt; really just formats text like this <code>formated by &lt;code&gt;</code></p>
+  
+  <h3>Section 2, Using CSS Gird - today's lesson</h3>
+  <p>Enable CSS Grid by setting <code>display</code> declaration in CSS to <code>grid</code>. The next paragraph is set to grid</p>
+  <p class="css-grid">This has been set to grid. Will see more in subsequent entires and will use class "<code>css-grid</code>".</p>
+
+</article>
   <article>
     <h2>2020.08.09 - troubleshooting <Code> "< code>"</Code> </h2>
+    
     <p>I still need to find out how to display html code without it rendering but rather with it displaying as regular text. The above is a cute gerry-rig, but it's not the real solution.</p>  
     <p>This does have me wondering whether going down these rabbit holes is worthwhile. I am going to say, "yes" because when I solve this, I will be better at troubleshooting, and I will understand something fundamental about HTML</p>
     <p>For now I will use this hack in the <code>< h2></code> of this article and avoid this issue becuase when I copy and paste the inspected html out of w3schools.com for where they have tags rendering as text, it translates them so the carrots are no longer carrots but are these instead - &lt; and &gt; </p>
@@ -30,6 +49,7 @@
 
   <article>
       <h2>2020.08.08 - Cloning a Git Repository creates a folder of its name, in the pwd</h2>
+     
       <p>When cloning a git repository from GitHub, it will come in it's own folder based on it's name. Meaning if I want this "learn-do" project to end up as a folder called "learn-d" in the "documents" folder, I need to execute the git clone command in terminal from the "documents" folder.</p>
       <p>There's no need to create a new folder for it called "learn-do" and to then clone it into that folder</p>
   </article>  
