@@ -8,7 +8,6 @@ code {
     padding: auto;
     font-size: 100%;
 }
-
 h2 {
     color: green;
 }
@@ -22,6 +21,12 @@ article {
     border: solid;
     text-align: center;
 }
-#css-grid {
+.css-grid {
     display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 50px 50px 50px;
+}
+.css-grid-units {
+    display: grid;
+    grid-template-columns: auto 50px 10% 2fr 1fr;
 }
