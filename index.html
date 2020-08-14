@@ -23,6 +23,24 @@
   </article>
 -->
 <article>
+  <h2>2020.08.14 - CSS Grid</h2>
+  <p>Control how many columns a grid item in a CSS Grid will consume using: <code>grid-column</code>, which is a CSS property that applies to the grid items and <strong>not</strong> the grid itself. </p>
+  <p><code>grid-column: 1 / 3;</code> makes an item stretch from the first to the third invisible line, separating all of the columns. These lines count from 1 at the top and left, upward in integers.</p>
+  <p>Same goes for rows via <code>grid-row: 1/3;</code></p>
+  <p>Control the left-right justification of content within a single cell via: <code>justify-self</code>. This defaults to <code>stretch</code> but will also take arguments such as: <code>start</code> (aligning content to left), <code>center</code>, and <code>end, whichi aligns content right.</code></p>
+  <p>Control the up-down alignment of a single cell in the same way as above, with all the same arguments, by using <code>align-self</code>.</p>
+  <p>Control the left-right justification of all cells via <code>justify-items</code> and presumably the up-down alignment via <code>align-items;</code>.</p>
+  <p>Diagram and set which cells are to be merged in a CSS Grid by using <code>grid-template-areas</code>. Do this by:</p>
+  <br>
+  <div name=container class="css-grid-id-1-column">
+    <div class="css-grid-j-start"><code>grid-template-areas:</code></div>
+    <div class="css-grid-j-end"><code>"header header header"</code></div>    
+    <div class="css-grid-j-end"><code>". content content"</code></div>
+    <div class="css-grid-j-start"><code>"footer footer footer"</code></div>
+  </div>
+  <p> the above was intended to be slightly offset like the CSS code in the freecodecame.org sandbox pane. Alas I didn't pull it off. Ideally I will start here with figuring this out so that I really can use this functionality.</p>
+</article>
+<article>
   <h2>2020.08.13 - Gap in between Rows via CSS Grid</h2>
   <p>Use the CSS Argument: <code>grid-row-gap: 5px;</code>.</p>
   <P>The number can be relative or absolute. It will create a gap in between the horizontal rows in the CSS Grid.</P>

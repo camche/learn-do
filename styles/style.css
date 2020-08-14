@@ -30,3 +30,16 @@ article {
     display: grid;
     grid-template-columns: auto 50px 10% 2fr 1fr;
 }
+.css-grid-id-1-column {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: end;
+    width: 400px;
+}
+.css-grid-j-start {
+    justify-self: start;
+}
+.css-grid-j-end {
+    justify-self: end;
+}
