@@ -18,8 +18,9 @@ textarea {
     width: 500px;
 }
 article {
-    border: solid;
+    border: solid 5px;
     text-align: center;
+    align-items: center;
 }
 .css-grid {
     display: grid;
@@ -32,14 +33,17 @@ article {
 }
 .css-grid-id-1-column {
     display: grid;
-    grid-template-columns: 400px;
+    grid-template-columns: auto;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    justify-items: end;
-    width: 400px;
+    justify-self: center;
+    width: 250px;
+    margin: auto;
 }
 .css-grid-j-start {
     justify-self: start;
+    margin: 
 }
 .css-grid-j-end {
-    justify-self: end;
+    justify-self: start;
+    margin: 0 0 0 20px;
 }
