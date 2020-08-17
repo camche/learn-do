@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    width: 800px;
 }
 code {
     font-family: monospace;
@@ -41,9 +42,17 @@ article {
 }
 .css-grid-j-start {
     justify-self: start;
-    margin: 
 }
 .css-grid-j-end {
     justify-self: start;
     margin: 0 0 0 20px;
+}
+.old-reference {
+    border: 3px dashed green;
+    background: lightgrey;
+    margin: 0px 100px;
+}
+strong {
+    color: purple;
+    font-weight: bolder;
 }

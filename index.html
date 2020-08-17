@@ -6,13 +6,13 @@
   <h1>This page is a record of what I've learned and examples of how I've used it</h1>
   
   <article>
-    <h2>Process for this Log.</h2>  
-      <p>For everything I learn, create an entry here with the date, an explanation of what I learned, and also a demontration of the code <strong> including showing the code iteslf used for the demonstration of the tool or principle</strong>.</p>
-      <p>Specifically create an h2 followed by as many p's as needed, wrapped in a article tag and include both a demonstration of the code in use AND a view of the code as actually written.</p>
-      <p>Put new entries below this one but above the previous.</p>
+    <h2>Process for this Log. (V1.1 - Updated 2020.08.16)</h2>  
+      <ol>
+        <li>Work through lessons pausing at ends of themes, like CSS Grid, to summarize the topic, rather than belaboring every little nugget of learning.</li>
+        <li>Create an h2 headline following the previous formats, followed by as many p's as needed, wrapped in a article tag describe what the code is used for and how it works, an optionally include a single example that contains all of the arguments/attributes/properties etc. learned in this session.</li>
+        <li>Put new entries below this one but above the previous.</li>
+      </ol>
       <br/>
-      <textarea>Create an<article> with an<h2> and <code><p></code>'s explaining the tool or concept I've learned and
-      - Demonstrate it</textarea>
   </article>
   <!--Put new entries just below this one so I have the most current log entry at the top and the oldest at the bottom
   Remember format is Article> H2, P's, textarea or similar if needed, Example.
@@ -22,6 +22,32 @@
     <p></p>
   </article>
 -->
+<article>
+  <h2>2020.08.16 - New Blog Protocol and more CSS Grid</h2>
+  <p>New protocol (will be updated at top as well)</p>
+  <p>Original protocol (V.1):</p>
+  <div class="old-reference">
+    <h2>Process for this Log.</h2>
+    <p>For everything I learn, create an entry here with the date, an explanation of what I learned, and also a demontration of the code <strong> including showing the code iteslf used for the demonstration of the tool or principle</strong>.</p>
+    <p>Specifically create an h2 followed by as many p's as needed, wrapped in a article tag and include both a demonstration of the code in use AND a view of the code as actually written.</p>
+    <p>Put new entries below this one but above the previous.</p>
+    <br/>
+    <textarea>Create an<article> with an<h2> and <code><p></code>'s explaining the tool or concept I've learned and
+    - Demonstrate it</textarea>
+  </div>
+  <p>In the FreeCodeCamp CSS Grid lessons, I learned:</p>
+  <ul>
+    <li>How to use Grid-template-Areas property to dictate not just how many rows and columns a grid has, but which cells occupy more than 1 column or row. This is effectively how you do newspaper layout for blocks in the grid. Then applied items to specific grids named in the grid-template-areas property via the grid-area property.</li>
+    <li>How to use Grid-Area property to dictate this same info on-the-fly for individual items, without pre-determining the whole grid layout.</li>
+    <li>To use the repeat function within the grid-template-rows OR -columns property to save time when specifying multiple columns/rows of the same size. IE <code>100px 100px 100px</code> becomes <code>repeat(3, 100px)</code>.</li>
+    <li>the <code>minmax</code> function for column or row size to that rows and columns can shrink and grow with set limits as the media grows and shrinks.</li>
+    <li>To use <code>auto-fill</code> to automatically add and subtract columns based on the media size.</li>
+    <li><code>auto-fit</code> to automatically adjust the size of rows/columns as the media size changes.</li>
+    <li>How to determine additional sets of CSS stylining based on <strong>media queries</strong>, so that different grid layouts, or other styles, can be changed when the size, type, or other attributes of the user's media change.</li>
+    <li>To create <code>grids within girds</code> so that I can use a grid to determine the page layout and then within sections, further describe the layout in finer detail.</li>
+  </ul>
+  <p><strong>Next up: Developer Tools!</strong></p>
+</article>
 <article>
   <h2>2020.08.14-15 - CSS Grid</h2>
   <p>Control how many columns a grid item in a CSS Grid will consume using: <code>grid-column</code>, which is a CSS property that applies to the grid items and <strong>not</strong> the grid itself. </p>
