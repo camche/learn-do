@@ -1,5 +1,5 @@
 body {
-    text-align: center;
+    text-align: justify;
     width: 800px;
 }
 code {
@@ -11,6 +11,7 @@ code {
 }
 h2 {
     color: green;
+    text-align: center;
 }
 h3 {
     color: #8888ee;
@@ -20,8 +21,9 @@ textarea {
 }
 article {
     border: solid 5px;
-    text-align: center;
+    text-align: justify;
     align-items: center;
+    padding: 20px;
 }
 .css-grid {
     display: grid;
