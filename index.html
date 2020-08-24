@@ -23,12 +23,18 @@
   </article>
 -->
 <article>
+  <h2>2020.08.23 - Short session - Looking for grid column width settings</h2>
+  <p>Started focusing on the width of the columns and realized that the "columns" are actually NOT the same width in what I've dubbed the 9 sections. Turns out the logo is in a section more narrow than the margin on the left main section was going to be...</p>
+  <p>Need to re-think this tomorrow when I have more time - can probably go much simpler...read prev- day's notes as well to not miss anything.</p>
+</article>
+<article>
   <h2>2020.08.22 - Learning Importance of structure and order of operations in CSS Grid</h2>
   <p>Coded out the whole CSS Grid for the page and it had so many bugs with missing &lt;/div&gt;'s I couldn't sort them. Some were in-line and so I duplicated below enclosed elements creating multiple closing div's. Other times I did the opposite.</p>
   <p>keeping my divs organized - is critical.</p>
   <p>Also critical is to create the top level structure first and make sure it is what I'm aiming for. Then Gradually fill in the sections with the desired contents as I go so I know where the errors are coming from and don't have to debug a pile of stuff but can build right the first time...as I go.</p>
   <p>Got all of the top level css grid areas corrected. And the second level as well.</p>
   <p><strong>NEXT let's get the top level grid spacing to be the same as the example SERP so the sections fall in the correct places.</strong></p>
+  <p>AND need to remember to review label notes for forms and inputs and properly label and interconnect the search-cont items.</p>
 </article>
 <article>
   <h2>2020.08.21 - Re-Doing the markup with tiered levels of CSS Grid breaking into sub grids rather than multiple top-level grids.</h2>
@@ -161,7 +167,7 @@
   <h2>2020.08.10 - Turns out using &lt; and &gt; IS done by writing "& lt ;" without spaces.</h2>
   
   <h3>Section 1, follow up from last entry</h3>
-  <p>In order to write code without it rendering it turns out that using &lt;code&gt; is done by writing out  "& lt ;". You don't actually type out the "<'s" on either side.</p>
+  <p>In order to write code without it rendering it turns out that using &lt;code&gt; is done by writing out  "& lt ;". You don't actually type out the "&lt;'s" on either side.</p>
   <p>This is fun news because it shows that my (v low level) sleuthing actually found the correct answer and maybe shouldn't be thought of as so lowly/hacky but maybe as "oh I found an solution, maybe later I'll find a better one, but this'll do for now."</p>
   <p>Additionally, it turns out the "&lt;code&gt; really just formats text like this <code>formated by &lt;code&gt;</code></p>
   
@@ -171,12 +177,12 @@
 
 </article>
   <article>
-    <h2>2020.08.09 - troubleshooting <Code> "< code>"</Code> </h2>
+    <h2>2020.08.09 - troubleshooting <Code> "&lt;code&gt;"</Code> </h2>
     
     <p>I still need to find out how to display html code without it rendering but rather with it displaying as regular text. The above is a cute gerry-rig, but it's not the real solution.</p>  
     <p>This does have me wondering whether going down these rabbit holes is worthwhile. I am going to say, "yes" because when I solve this, I will be better at troubleshooting, and I will understand something fundamental about HTML</p>
-    <p>For now I will use this hack in the <code>< h2></code> of this article and avoid this issue becuase when I copy and paste the inspected html out of w3schools.com for where they have tags rendering as text, it translates them so the carrots are no longer carrots but are these instead - &lt; and &gt; </p>
-    <p>This works <Code> "< code>"</Code>.</p>
+    <p>For now I will use this hack in the <code>&lt;h2&gt;</code> of this article and avoid this issue becuase when I copy and paste the inspected html out of w3schools.com for where they have tags rendering as text, it translates them so the carrots are no longer carrots but are these instead - &lt; and &gt; </p>
+    <p>This works <Code> "&lt;code&gt;"</Code>.</p>
     <P>But this does not<Code> "<code>"</Code.></P>
     <p>This works      <code class="w3-codespan">&lt;span&gt;</code></p>
     <p>And of course textarea works as in the header article.</p>
